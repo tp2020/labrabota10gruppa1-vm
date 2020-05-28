@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  task2.2Lab9
+
+  Created by Ivan on 15.05.2020.
+  Copyright © 2020 Ivan. All rights reserved.
+*/
+
+"Close"="締めくくる";
+
+"Weather"="てんき";
+
+"hours"="じかん";
+
+"rubels"="ルーブル";
+
+"Station-PS2"="停留所-PS2";
+
+"Station-CR2"="停留所-CR2";
+
+"Station-B8"="停留所-B8";
+
+"Station-2"="停留所-2";
+
+"Station-1"="停留所-1";

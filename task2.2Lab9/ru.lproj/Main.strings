@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Station"; ObjectID = "0BP-yU-eA0"; */
+"0BP-yU-eA0.text" = "Станция";
+
+/* Class = "UILabel"; text = "yes"; ObjectID = "Ov5-EN-99J"; */
+"Ov5-EN-99J.text" = "да";
+
+/* Class = "UILabel"; text = "Duration"; ObjectID = "QcW-iz-aqM"; */
+"QcW-iz-aqM.text" = "длительность";
+
+/* Class = "UILabel"; text = "Amount"; ObjectID = "R96-2U-PMw"; */
+"R96-2U-PMw.text" = "цена";
+
+/* Class = "UILabel"; text = "Free space"; ObjectID = "VHn-tE-JS5"; */
+"VHn-tE-JS5.text" = "Есть свободные места";
+
+/* Class = "UITextField"; placeholder = "To"; ObjectID = "a2h-xT-dvI"; */
+"a2h-xT-dvI.placeholder" = "Куда";
+
+/* Class = "UITextField"; placeholder = "From"; ObjectID = "dHO-s4-ZtO"; */
+"dHO-s4-ZtO.placeholder" = "От куда";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "oBX-yg-tvb"; */
+"oBX-yg-tvb.text" = "название";
+
+/* Class = "UILabel"; text = "h"; ObjectID = "siq-mU-N5Y"; */
+"siq-mU-N5Y.text" = "h";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "vHd-B7-lhb"; */
+"vHd-B7-lhb.normalTitle" = "Искать";

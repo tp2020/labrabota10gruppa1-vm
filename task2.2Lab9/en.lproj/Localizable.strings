@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  task2.2Lab9
+
+  Created by Ivan on 15.05.2020.
+  Copyright © 2020 Ivan. All rights reserved.
+*/
+
+"Close"="Close";
+"Weather"="Weather";
+"hours"="h";
+"rubels"="rubels";
+"Station-PS2"="Station-PS2";
+"Station-CR2"="Station-CR2";
+"Station-B8"="Station-B8";
+"Station-2"="Station-2";
+"Station-1"="Station-1";
