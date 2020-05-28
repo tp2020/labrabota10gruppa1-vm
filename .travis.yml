@@ -5,7 +5,7 @@ sudo: required
 osx_image: xcode11.3
 script:
  — set -o pipefail
- — xcodebuild -project task2.2Lab9.xcodeproj -scheme “task2.2Lab9” -sdk iphonesimulator -destination ‘platform=iOS Simulator,name=iPhone 11,OS=13.3’ test
+ — xcodebuild test -project task2.2Lab9.xcodeproj -scheme “task2.2Lab9” -sdk iphonesimulator -destination ‘platform=iOS Simulator,name=iPhone 11,OS=13.3’
 notifications:
  email:
  on_success: never
