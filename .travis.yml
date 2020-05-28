@@ -2,4 +2,4 @@
 language: objective-c
 xcode_project: task2.2Lab9.xcodeproj # path to your xcodeproj folder
 xcode_scheme: task2.2Lab9
-xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
+xcode_destination: platform=iOS Simulator,OS=13.3,name=iPhone 11
