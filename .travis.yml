@@ -4,3 +4,10 @@ xcode_project: task2.2Lab9.xcodeproj
 xcode_scheme: task2.2Lab9 
 xcode_sdk: iphonesimulator13.5 
 xcode_destination: 'platform=iOS Simulator,name=iPhone 11,OS=13.5'
+branches:
+  only:
+  - release
+  - stable
+  except:
+  - master
+  - nightly
