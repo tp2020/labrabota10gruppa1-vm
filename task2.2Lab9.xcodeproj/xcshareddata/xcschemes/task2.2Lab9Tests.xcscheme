@@ -7,16 +7,30 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "YES"
+            buildForTesting = "NO"
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2C4D75B7246E6DE300409472"
                BuildableName = "task2.2Lab9.app"
                BlueprintName = "task2.2Lab9"
+               ReferencedContainer = "container:task2.2Lab9.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2C4F027A24802BFC0093DBE8"
+               BuildableName = "task2.2Lab9Tests.xctest"
+               BlueprintName = "task2.2Lab9Tests"
                ReferencedContainer = "container:task2.2Lab9.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
