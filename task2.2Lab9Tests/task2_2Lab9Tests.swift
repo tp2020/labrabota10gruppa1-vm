@@ -22,7 +22,7 @@ class task2_2Lab9Tests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
-        var a = 2;
+        var a = 1;
         
         XCTAssert(a==2, "a should be equal to 2");
         
