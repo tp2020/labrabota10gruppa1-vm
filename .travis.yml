@@ -1,4 +1,4 @@
 language: objective-c  
 osx_image: xcode11.5 
 script:
- - set -o pipefail && xcodebuild test -project task2.2Lab9.xcodeproj -scheme FastTests | xcpretty
+ - set -o pipefail && xcodebuild test-without-building -project task2.2Lab9.xcodeproj -scheme FastTests | xcpretty
