@@ -3,6 +3,9 @@ os:
 language: swift
 sudo: required
 osx_image: xcode11.3
+before_install:
+  - brew update
+  - brew upgrade xctool
 script:
  — set -o pipefail
  — xcodebuild test -project task2.2Lab9.xcodeproj -scheme “task2.2Lab9” -sdk iphonesimulator -destination ‘platform=iOS Simulator,name=iPhone 11,OS=13.3’
