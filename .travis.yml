@@ -1,3 +1,5 @@
-language: objective-c
-xcode_project: task2.2Lab9.xcodeproj # path to your xcodeproj folder
-xcode_scheme: task2.2Lab9
+language:
+  - swift
+osx_image: xcode10.1
+script:
+  - xcodebuild -scheme task2.2Lab9 -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=12.1' build test
