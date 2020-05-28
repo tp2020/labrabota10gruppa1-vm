@@ -24,6 +24,8 @@ class task2_2Lab9Tests: XCTestCase {
         
         var a = 1;
         
+        NSLog("Doing test a");
+        
         XCTAssert(a==2, "a should be equal to 2");
         
     }
