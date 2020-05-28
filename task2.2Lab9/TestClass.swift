@@ -1,6 +1,6 @@
 //
-//  task2_2Lab9Tests.swift
-//  task2.2Lab9Tests
+//  TestClass.swift
+//  task2.2Lab9
 //
 //  Created by Ivan on 28.05.2020.
 //  Copyright © 2020 Ivan. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class task2_2Lab9Tests: XCTestCase {
+class TestClass: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -21,16 +21,11 @@ class task2_2Lab9Tests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        
-        var a = 2;
-        
-        XCTAssert(a==2, "a should be equal to 2");
-        
     }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        measure {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
