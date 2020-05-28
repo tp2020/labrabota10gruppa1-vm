@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,6 +22,9 @@
 		2CAAB0B724802E18004FFE59 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAAB0B624802E18004FFE59 /* Weather.swift */; };
 		2CAAB0B924802E41004FFE59 /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAAB0B824802E41004FFE59 /* WeatherGetter.swift */; };
 		2CAAB0C42480489A004FFE59 /* task2_2Lab9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAAB0C32480489A004FFE59 /* task2_2Lab9Tests.swift */; };
+		2CCA3FD5248054F000C850BB /* task2.2Lab9.app in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D75B8246E6DE300409472 /* task2.2Lab9.app */; };
+		2CCA3FD6248054F000C850BB /* task2.2Lab9.app in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D75B8246E6DE300409472 /* task2.2Lab9.app */; platformFilter = ios; };
+		2CCA3FD82480552A00C850BB /* Test2Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA3FD72480552A00C850BB /* Test2Case.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,7 @@
 		2CAAB0C12480489A004FFE59 /* task2.2Lab9Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = task2.2Lab9Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAAB0C32480489A004FFE59 /* task2_2Lab9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task2_2Lab9Tests.swift; sourceTree = "<group>"; };
 		2CAAB0C52480489A004FFE59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCA3FD72480552A00C850BB /* Test2Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2Case.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				2CAAB0C32480489A004FFE59 /* task2_2Lab9Tests.swift */,
+				2CCA3FD72480552A00C850BB /* Test2Case.swift */,
 				2CAAB0C52480489A004FFE59 /* Info.plist */,
 			);
 			path = task2.2Lab9Tests;
@@ -214,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C4D75CB246E6DE400409472 /* LaunchScreen.storyboard in Resources */,
+				2CCA3FD5248054F000C850BB /* task2.2Lab9.app in Resources */,
 				2C4F11BC246ED8DD006DB3D9 /* Localizable.strings in Resources */,
 				2C4D75C8246E6DE400409472 /* Assets.xcassets in Resources */,
 				2C4D75C3246E6DE300409472 /* Main.storyboard in Resources */,
@@ -224,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCA3FD6248054F000C850BB /* task2.2Lab9.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCA3FD82480552A00C850BB /* Test2Case.swift in Sources */,
 				2CAAB0C42480489A004FFE59 /* task2_2Lab9Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
