@@ -1,6 +1,6 @@
 os:
  — osx
-language: swift
+language: objective-c
 sudo: required
 osx_image: xcode11.3
 script:
