@@ -1,5 +1,20 @@
-language: objective-c
-osx_image: xcode10.1
-xcode_project: task2.2Lab9.xcodeproj
-xcode_scheme: task2.2Lab9
-xcode_sdk: iphonesimulator13.1
+name: Swift
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build
+      working-directory: ./task2.2Lab9
+      run: swift build -v
+    - name: Run tests
+      run: swift test -v
