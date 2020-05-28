@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "92D2BD44-706E-4B47-90CE-962A9CFB4DC1",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:task2.2Lab9.xcodeproj",
+        "identifier" : "2C4F027A24802BFC0093DBE8",
+        "name" : "task2.2Lab9Tests"
+      }
+    }
+  ],
+  "version" : 1
+}
