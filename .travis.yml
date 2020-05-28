@@ -1,5 +1,5 @@
 language: objective-c
 osx_image: xcode10.1
-xcode_workspace: task2.2Lab9.xcodeproj
+xcode_project: task2.2Lab9.xcodeproj
 xcode_scheme: task2.2Lab9
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
