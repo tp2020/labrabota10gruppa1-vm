@@ -13,4 +13,4 @@ This project helps to book place for different international buss routes.
 2. Go to Registartion menu.
 3. In main menu you can get all available information about routs you want. Just fill "From" and "To" input fields
 # Credits:
-1. Shishlynnikov Ivan: frontEnd,backEnd, CEO, QA
+Shishlynnikov Ivan: frontEnd,backEnd, CEO, QA
