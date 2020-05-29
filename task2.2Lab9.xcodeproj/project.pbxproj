@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,14 +15,16 @@
 		2C4D75C6246E6DE300409472 /* task2_2Lab9.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75C4246E6DE300409472 /* task2_2Lab9.xcdatamodeld */; };
 		2C4D75C8246E6DE400409472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D75C7246E6DE400409472 /* Assets.xcassets */; };
 		2C4D75CB246E6DE400409472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D75C9246E6DE400409472 /* LaunchScreen.storyboard */; };
-		2C4D75D4246E6EAA00409472 /* Route+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75D2246E6EAA00409472 /* Route+CoreDataClass.swift */; };
+		2C4D75D4246E6EAA00409472 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75D2246E6EAA00409472 /* Route.swift */; };
 		2C4D75D5246E6EAA00409472 /* Route+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75D3246E6EAA00409472 /* Route+CoreDataProperties.swift */; };
 		2C4F11AF246EB7EA006DB3D9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F11AE246EB7EA006DB3D9 /* LocationManager.swift */; };
 		2C4F11BC246ED8DD006DB3D9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C4F11BE246ED8DD006DB3D9 /* Localizable.strings */; };
+		2C54F05F24819AEF0035F2A0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CAAB0C52480489A004FFE59 /* Info.plist */; };
+		2C54F06324819FAE0035F2A0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54F06224819FAE0035F2A0 /* MainViewController.swift */; };
+		2C848D7B2481B365005225D6 /* task2_2Lab9.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75C4246E6DE300409472 /* task2_2Lab9.xcdatamodeld */; };
 		2CAAB0B724802E18004FFE59 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAAB0B624802E18004FFE59 /* Weather.swift */; };
 		2CAAB0B924802E41004FFE59 /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAAB0B824802E41004FFE59 /* WeatherGetter.swift */; };
 		2CAAB0C42480489A004FFE59 /* task2_2Lab9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAAB0C32480489A004FFE59 /* task2_2Lab9Tests.swift */; };
-		2CCA3FD82480552A00C850BB /* Test2Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA3FD72480552A00C850BB /* Test2Case.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +38,7 @@
 		2C4D75C7246E6DE400409472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C4D75CA246E6DE400409472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C4D75CC246E6DE400409472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C4D75D2246E6EAA00409472 /* Route+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Route+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2C4D75D2246E6EAA00409472 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		2C4D75D3246E6EAA00409472 /* Route+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Route+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2C4F11AE246EB7EA006DB3D9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		2C4F11B8246ED8C1006DB3D9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
@@ -47,12 +49,12 @@
 		2C4F11BF246ED8E3006DB3D9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2C4F11C0246ED8E4006DB3D9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2C4F11C2246EDB28006DB3D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		2C54F06224819FAE0035F2A0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2CAAB0B624802E18004FFE59 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		2CAAB0B824802E41004FFE59 /* WeatherGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGetter.swift; sourceTree = "<group>"; };
 		2CAAB0C12480489A004FFE59 /* task2.2Lab9Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = task2.2Lab9Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAAB0C32480489A004FFE59 /* task2_2Lab9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task2_2Lab9Tests.swift; sourceTree = "<group>"; };
 		2CAAB0C52480489A004FFE59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CCA3FD72480552A00C850BB /* Test2Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2Case.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +78,6 @@
 		2C4D75AF246E6DE300409472 = {
 			isa = PBXGroup;
 			children = (
-				2C4D75D2246E6EAA00409472 /* Route+CoreDataClass.swift */,
-				2C4D75D3246E6EAA00409472 /* Route+CoreDataProperties.swift */,
 				2C4D75BA246E6DE300409472 /* task2.2Lab9 */,
 				2CAAB0C22480489A004FFE59 /* task2.2Lab9Tests */,
 				2C4D75B9246E6DE300409472 /* Products */,
@@ -96,18 +96,21 @@
 		2C4D75BA246E6DE300409472 /* task2.2Lab9 */ = {
 			isa = PBXGroup;
 			children = (
+				2C4D75D2246E6EAA00409472 /* Route.swift */,
+				2C4D75D3246E6EAA00409472 /* Route+CoreDataProperties.swift */,
 				2C4D75BB246E6DE300409472 /* AppDelegate.swift */,
+				2C54F06224819FAE0035F2A0 /* MainViewController.swift */,
 				2C4D75BD246E6DE300409472 /* SceneDelegate.swift */,
 				2C4D75BF246E6DE300409472 /* ViewController.swift */,
 				2C4D75C1246E6DE300409472 /* Main.storyboard */,
 				2C4D75C7246E6DE400409472 /* Assets.xcassets */,
 				2C4D75C9246E6DE400409472 /* LaunchScreen.storyboard */,
 				2C4D75CC246E6DE400409472 /* Info.plist */,
-				2C4D75C4246E6DE300409472 /* task2_2Lab9.xcdatamodeld */,
 				2C4126C0246E81A5003506EB /* RouteCell.swift */,
 				2C4F11AE246EB7EA006DB3D9 /* LocationManager.swift */,
 				2C4F11BE246ED8DD006DB3D9 /* Localizable.strings */,
 				2CAAB0B624802E18004FFE59 /* Weather.swift */,
+				2C4D75C4246E6DE300409472 /* task2_2Lab9.xcdatamodeld */,
 				2CAAB0B824802E41004FFE59 /* WeatherGetter.swift */,
 			);
 			path = task2.2Lab9;
@@ -117,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				2CAAB0C32480489A004FFE59 /* task2_2Lab9Tests.swift */,
-				2CCA3FD72480552A00C850BB /* Test2Case.swift */,
 				2CAAB0C52480489A004FFE59 /* Info.plist */,
 			);
 			path = task2.2Lab9Tests;
@@ -180,7 +182,7 @@
 				};
 			};
 			buildConfigurationList = 2C4D75B3246E6DE300409472 /* Build configuration list for PBXProject "task2.2Lab9" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -216,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C54F05F24819AEF0035F2A0 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C4D75C0246E6DE300409472 /* ViewController.swift in Sources */,
+				2C54F06324819FAE0035F2A0 /* MainViewController.swift in Sources */,
 				2CAAB0B924802E41004FFE59 /* WeatherGetter.swift in Sources */,
 				2C4D75D5246E6EAA00409472 /* Route+CoreDataProperties.swift in Sources */,
 				2C4D75BC246E6DE300409472 /* AppDelegate.swift in Sources */,
@@ -234,7 +238,7 @@
 				2CAAB0B724802E18004FFE59 /* Weather.swift in Sources */,
 				2C4F11AF246EB7EA006DB3D9 /* LocationManager.swift in Sources */,
 				2C4D75BE246E6DE300409472 /* SceneDelegate.swift in Sources */,
-				2C4D75D4246E6EAA00409472 /* Route+CoreDataClass.swift in Sources */,
+				2C4D75D4246E6EAA00409472 /* Route.swift in Sources */,
 				2C4126C1246E81A5003506EB /* RouteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,7 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CCA3FD82480552A00C850BB /* Test2Case.swift in Sources */,
+				2C848D7B2481B365005225D6 /* task2_2Lab9.xcdatamodeld in Sources */,
 				2CAAB0C42480489A004FFE59 /* task2_2Lab9Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -391,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -406,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4AG695YXC;
 				INFOPLIST_FILE = task2.2Lab9/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -424,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4AG695YXC;
 				INFOPLIST_FILE = task2.2Lab9/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,7 +457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "IvanIdentifier.task2-2Lab9Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,7 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "IvanIdentifier.task2-2Lab9Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
