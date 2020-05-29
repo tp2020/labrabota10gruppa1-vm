@@ -4,7 +4,7 @@ labrabota10gruppa1-vm created by GitHub Classroom
 # Project Name: 
 BusRoutes
 # Description:
-This project helps to book place for different international buss routes.
+This project helps to book ticket for different international buss routes.
 # Installation:
 1. Download app
 2. Run main app
