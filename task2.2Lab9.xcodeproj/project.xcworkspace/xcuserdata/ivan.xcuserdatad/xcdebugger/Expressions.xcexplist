@@ -3,6 +3,14 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "task2_2Lab9Tests.setUpWithError():task2_2Lab9Tests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "persistentContainer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "ViewController.tableView(_:cellForRowAt:):ViewController.swift">
          <PersistentStrings>
             <PersistentString
@@ -15,6 +23,14 @@
          <PersistentStrings>
             <PersistentString
                value = "foundRoutes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in task2_2Lab9Tests.setUpWithError():task2_2Lab9Tests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "persistentContainer">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

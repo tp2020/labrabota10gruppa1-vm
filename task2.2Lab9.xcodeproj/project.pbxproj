@@ -12,20 +12,32 @@
 		2C4D75BE246E6DE300409472 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75BD246E6DE300409472 /* SceneDelegate.swift */; };
 		2C4D75C0246E6DE300409472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75BF246E6DE300409472 /* ViewController.swift */; };
 		2C4D75C3246E6DE300409472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D75C1246E6DE300409472 /* Main.storyboard */; };
-		2C4D75C6246E6DE300409472 /* task2_2Lab9.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75C4246E6DE300409472 /* task2_2Lab9.xcdatamodeld */; };
 		2C4D75C8246E6DE400409472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D75C7246E6DE400409472 /* Assets.xcassets */; };
 		2C4D75CB246E6DE400409472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D75C9246E6DE400409472 /* LaunchScreen.storyboard */; };
 		2C4D75D4246E6EAA00409472 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75D2246E6EAA00409472 /* Route.swift */; };
 		2C4D75D5246E6EAA00409472 /* Route+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75D3246E6EAA00409472 /* Route+CoreDataProperties.swift */; };
 		2C4F11AF246EB7EA006DB3D9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F11AE246EB7EA006DB3D9 /* LocationManager.swift */; };
 		2C4F11BC246ED8DD006DB3D9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C4F11BE246ED8DD006DB3D9 /* Localizable.strings */; };
-		2C54F05F24819AEF0035F2A0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CAAB0C52480489A004FFE59 /* Info.plist */; };
 		2C54F06324819FAE0035F2A0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54F06224819FAE0035F2A0 /* MainViewController.swift */; };
-		2C848D7B2481B365005225D6 /* task2_2Lab9.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75C4246E6DE300409472 /* task2_2Lab9.xcdatamodeld */; };
+		2C848D7C2481B6AB005225D6 /* task2_2Lab9.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75C4246E6DE300409472 /* task2_2Lab9.xcdatamodeld */; };
+		2C848D7F2481B77A005225D6 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C848D7D2481B77A005225D6 /* User+CoreDataClass.swift */; };
+		2C848D802481B77A005225D6 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C848D7E2481B77A005225D6 /* User+CoreDataProperties.swift */; };
+		2C848D822481C9B3005225D6 /* task2_2Lab9.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75C4246E6DE300409472 /* task2_2Lab9.xcdatamodeld */; };
+		2C848D842481CB2D005225D6 /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAAB0B824802E41004FFE59 /* WeatherGetter.swift */; };
+		2C848D862481CCDA005225D6 /* TestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C848D852481CCDA005225D6 /* TestUI.swift */; };
 		2CAAB0B724802E18004FFE59 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAAB0B624802E18004FFE59 /* Weather.swift */; };
-		2CAAB0B924802E41004FFE59 /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAAB0B824802E41004FFE59 /* WeatherGetter.swift */; };
 		2CAAB0C42480489A004FFE59 /* task2_2Lab9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAAB0C32480489A004FFE59 /* task2_2Lab9Tests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C848D872481D0DC005225D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C4D75B0246E6DE300409472 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4D75B7246E6DE300409472;
+			remoteInfo = task2.2Lab9;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2C4126C0246E81A5003506EB /* RouteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCell.swift; sourceTree = "<group>"; };
@@ -50,6 +62,9 @@
 		2C4F11C0246ED8E4006DB3D9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2C4F11C2246EDB28006DB3D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		2C54F06224819FAE0035F2A0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2C848D7D2481B77A005225D6 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "../User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2C848D7E2481B77A005225D6 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "../User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2C848D852481CCDA005225D6 /* TestUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUI.swift; sourceTree = "<group>"; };
 		2CAAB0B624802E18004FFE59 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		2CAAB0B824802E41004FFE59 /* WeatherGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGetter.swift; sourceTree = "<group>"; };
 		2CAAB0C12480489A004FFE59 /* task2.2Lab9Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = task2.2Lab9Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +111,8 @@
 		2C4D75BA246E6DE300409472 /* task2.2Lab9 */ = {
 			isa = PBXGroup;
 			children = (
+				2C848D7D2481B77A005225D6 /* User+CoreDataClass.swift */,
+				2C848D7E2481B77A005225D6 /* User+CoreDataProperties.swift */,
 				2C4D75D2246E6EAA00409472 /* Route.swift */,
 				2C4D75D3246E6EAA00409472 /* Route+CoreDataProperties.swift */,
 				2C4D75BB246E6DE300409472 /* AppDelegate.swift */,
@@ -109,8 +126,8 @@
 				2C4126C0246E81A5003506EB /* RouteCell.swift */,
 				2C4F11AE246EB7EA006DB3D9 /* LocationManager.swift */,
 				2C4F11BE246ED8DD006DB3D9 /* Localizable.strings */,
-				2CAAB0B624802E18004FFE59 /* Weather.swift */,
 				2C4D75C4246E6DE300409472 /* task2_2Lab9.xcdatamodeld */,
+				2CAAB0B624802E18004FFE59 /* Weather.swift */,
 				2CAAB0B824802E41004FFE59 /* WeatherGetter.swift */,
 			);
 			path = task2.2Lab9;
@@ -120,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				2CAAB0C32480489A004FFE59 /* task2_2Lab9Tests.swift */,
+				2C848D852481CCDA005225D6 /* TestUI.swift */,
 				2CAAB0C52480489A004FFE59 /* Info.plist */,
 			);
 			path = task2.2Lab9Tests;
@@ -156,6 +174,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2C848D882481D0DC005225D6 /* PBXTargetDependency */,
 			);
 			name = task2.2Lab9Tests;
 			productName = task2.2Lab9Tests;
@@ -178,6 +197,7 @@
 					};
 					2CAAB0C02480489A004FFE59 = {
 						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 2C4D75B7246E6DE300409472;
 					};
 				};
 			};
@@ -218,7 +238,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C54F05F24819AEF0035F2A0 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,14 +250,16 @@
 			files = (
 				2C4D75C0246E6DE300409472 /* ViewController.swift in Sources */,
 				2C54F06324819FAE0035F2A0 /* MainViewController.swift in Sources */,
-				2CAAB0B924802E41004FFE59 /* WeatherGetter.swift in Sources */,
+				2C848D7F2481B77A005225D6 /* User+CoreDataClass.swift in Sources */,
 				2C4D75D5246E6EAA00409472 /* Route+CoreDataProperties.swift in Sources */,
 				2C4D75BC246E6DE300409472 /* AppDelegate.swift in Sources */,
-				2C4D75C6246E6DE300409472 /* task2_2Lab9.xcdatamodeld in Sources */,
 				2CAAB0B724802E18004FFE59 /* Weather.swift in Sources */,
 				2C4F11AF246EB7EA006DB3D9 /* LocationManager.swift in Sources */,
+				2C848D842481CB2D005225D6 /* WeatherGetter.swift in Sources */,
 				2C4D75BE246E6DE300409472 /* SceneDelegate.swift in Sources */,
 				2C4D75D4246E6EAA00409472 /* Route.swift in Sources */,
+				2C848D802481B77A005225D6 /* User+CoreDataProperties.swift in Sources */,
+				2C848D7C2481B6AB005225D6 /* task2_2Lab9.xcdatamodeld in Sources */,
 				2C4126C1246E81A5003506EB /* RouteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,12 +268,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C848D7B2481B365005225D6 /* task2_2Lab9.xcdatamodeld in Sources */,
+				2C848D822481C9B3005225D6 /* task2_2Lab9.xcdatamodeld in Sources */,
+				2C848D862481CCDA005225D6 /* TestUI.swift in Sources */,
 				2CAAB0C42480489A004FFE59 /* task2_2Lab9Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C848D882481D0DC005225D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C4D75B7246E6DE300409472 /* task2.2Lab9 */;
+			targetProxy = 2C848D872481D0DC005225D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2C4D75C1246E6DE300409472 /* Main.storyboard */ = {
@@ -446,6 +476,7 @@
 		2CAAB0C92480489A004FFE59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M4AG695YXC;
 				INFOPLIST_FILE = task2.2Lab9Tests/Info.plist;
@@ -458,12 +489,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/task2.2Lab9.app/task2.2Lab9";
 			};
 			name = Debug;
 		};
 		2CAAB0CA2480489A004FFE59 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M4AG695YXC;
 				INFOPLIST_FILE = task2.2Lab9Tests/Info.plist;
@@ -476,6 +509,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/task2.2Lab9.app/task2.2Lab9";
 			};
 			name = Release;
 		};
