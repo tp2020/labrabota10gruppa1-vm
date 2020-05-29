@@ -1,4 +1,4 @@
 language: objective-c  
 osx_image: xcode11.5 
 script:
- - set -o pipefail && xcodebuild test -project task2.2Lab9.xcodeproj -scheme FastTests | xcpretty
+ - xcodebuild test-without-building -project task2.2Lab9.xcodeproj -scheme task2.2Lab9 -sdk iphonesimulator13.5 -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5' | xcpretty
