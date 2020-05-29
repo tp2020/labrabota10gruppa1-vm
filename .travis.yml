@@ -1,2 +1,3 @@
 language: objective-c  
+script:
 -o pipefail && xcodebuild -project task2.2Lab9.xcodeproj -scheme FastTests -sdk iphonesimulator13.5 -destination platform\=iOS\ Simulator,name\=iPhone\ 11,OS\=13.5 test-without-building | xcpretty
