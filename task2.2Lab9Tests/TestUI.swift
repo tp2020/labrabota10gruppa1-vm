@@ -26,7 +26,7 @@ class TestUI: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func testLoginInput() throws {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
@@ -43,6 +43,43 @@ class TestUI: XCTestCase {
         app.keyboards.buttons["Return"].tap()
         
         XCTAssertTrue(app.textFields["Login Auth"].label == "magtar","Login should be magtar")
+    }
+    
+    
+    func testRegistration() throws {
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        var app = XCUIApplication()
+        
+        app.segmentedControls.element.tap()
+        
+        app.textFields["Login Reg"].tap()
+        
+        app.keys["m"].tap()
+               app.keys["a"].tap()
+               app.keys["g"].tap()
+               app.keys["t"].tap()
+               app.keys["a"].tap()
+               app.keys["r"].tap()
+        
+        app.keyboards.buttons["Return"].tap()
+        
+        
+        app.textFields["Pass Reg"].tap()
+        
+        app.keys["p"].tap()
+        app.keys["a"].tap()
+        app.keys["s"].tap()
+        app.keys["s"].tap()
+
+        app.keyboards.buttons["Return"].tap()
+        
+        app.buttons["Register"].tap()
+        
+        
+        
+        XCTAssertTrue(app.textFields["Login Auth"] == nil, "Screen should be changed")
     }
 
 }
