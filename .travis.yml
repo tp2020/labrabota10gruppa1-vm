@@ -3,6 +3,8 @@ osx_image: xcode11.5
 jobs:
   include:
     - stage: Tests 
-      script: - xcodebuild test-without-building  -project BussRoutesApp -scheme BussRoutesApp -sdk iphonesimulator13.5 -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5'
+      script:
+       - xcodebuild test-without-building  -project BussRoutesApp -scheme BussRoutesApp -sdk iphonesimulator13.5 -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5'
     - stage: Deploy 
-      script: - xcodebuild build -project BussRoutesApp.xcodeproj -scheme BussRoutesApp -sdk iphonesimulator13.5 -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5' -derivedDataPath build
+      script: 
+       - xcodebuild build -project BussRoutesApp.xcodeproj -scheme BussRoutesApp -sdk iphonesimulator13.5 -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5' -derivedDataPath build
