@@ -6,6 +6,6 @@ script:
  - xcodebuild build -project task2.2Lab9.xcodeproj -scheme task2.2Lab9 -sdk iphonesimulator13.5 -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5' -derivedDataPath build
 deploy:
   provider: releases
-  api_key: "token"
+  api_key: "9f393d1a7ea88e4fd4b2bec258a659a89a318242"
   file: "build"
   skip_cleanup: true
