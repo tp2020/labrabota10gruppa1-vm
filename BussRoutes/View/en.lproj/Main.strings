@@ -2,6 +2,18 @@
 /* Class = "UILabel"; text = "Station"; ObjectID = "0BP-yU-eA0"; */
 "0BP-yU-eA0.text" = "Station";
 
+/* Class = "UIViewController"; title = "StartScene"; ObjectID = "1qp-84-URg"; */
+"1qp-84-URg.title" = "StartScene";
+
+/* Class = "UISegmentedControl"; 376-qm-rg8.segmentTitles[0] = "Login"; ObjectID = "376-qm-rg8"; */
+"376-qm-rg8.segmentTitles[0]" = "Login";
+
+/* Class = "UISegmentedControl"; 376-qm-rg8.segmentTitles[1] = "Register"; ObjectID = "376-qm-rg8"; */
+"376-qm-rg8.segmentTitles[1]" = "Register";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "GET-li-Fwp"; */
+"GET-li-Fwp.text" = "Login";
+
 /* Class = "UILabel"; text = "yes"; ObjectID = "Ov5-EN-99J"; */
 "Ov5-EN-99J.text" = "yes";
 
@@ -11,11 +23,23 @@
 /* Class = "UILabel"; text = "Amount"; ObjectID = "R96-2U-PMw"; */
 "R96-2U-PMw.text" = "Amount";
 
+/* Class = "UILabel"; text = "Repeat password"; ObjectID = "T1x-M8-krC"; */
+"T1x-M8-krC.text" = "Repeat password";
+
+/* Class = "UILabel"; text = "Pasword"; ObjectID = "Tjf-bo-rGQ"; */
+"Tjf-bo-rGQ.text" = "Pasword";
+
 /* Class = "UILabel"; text = "Free space"; ObjectID = "VHn-tE-JS5"; */
 "VHn-tE-JS5.text" = "Free space";
 
+/* Class = "UILabel"; text = "Email"; ObjectID = "ZyF-hM-YGN"; */
+"ZyF-hM-YGN.text" = "Email";
+
 /* Class = "UITextField"; placeholder = "To"; ObjectID = "a2h-xT-dvI"; */
 "a2h-xT-dvI.placeholder" = "To";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "bgp-Ka-i1D"; */
+"bgp-Ka-i1D.text" = "Login";
 
 /* Class = "UITextField"; placeholder = "From"; ObjectID = "dHO-s4-ZtO"; */
 "dHO-s4-ZtO.placeholder" = "From";
@@ -26,5 +50,14 @@
 /* Class = "UILabel"; text = "h"; ObjectID = "siq-mU-N5Y"; */
 "siq-mU-N5Y.text" = "h";
 
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "uo1-lQ-sBl"; */
+"uo1-lQ-sBl.normalTitle" = "Register";
+
 /* Class = "UIButton"; normalTitle = "Search"; ObjectID = "vHd-B7-lhb"; */
 "vHd-B7-lhb.normalTitle" = "Search";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "vur-H2-IYc"; */
+"vur-H2-IYc.text" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "wjf-k3-3bo"; */
+"wjf-k3-3bo.normalTitle" = "Confirm";

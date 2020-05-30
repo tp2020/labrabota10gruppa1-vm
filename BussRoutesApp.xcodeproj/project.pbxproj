@@ -10,7 +10,7 @@
 		2C4126C1246E81A5003506EB /* RouteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4126C0246E81A5003506EB /* RouteCell.swift */; };
 		2C4D75BC246E6DE300409472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75BB246E6DE300409472 /* AppDelegate.swift */; };
 		2C4D75BE246E6DE300409472 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75BD246E6DE300409472 /* SceneDelegate.swift */; };
-		2C4D75C0246E6DE300409472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75BF246E6DE300409472 /* ViewController.swift */; };
+		2C4D75C0246E6DE300409472 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D75BF246E6DE300409472 /* MapViewController.swift */; };
 		2C4D75C3246E6DE300409472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D75C1246E6DE300409472 /* Main.storyboard */; };
 		2C4D75C8246E6DE400409472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D75C7246E6DE400409472 /* Assets.xcassets */; };
 		2C4D75CB246E6DE400409472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D75C9246E6DE400409472 /* LaunchScreen.storyboard */; };
@@ -41,10 +41,13 @@
 
 /* Begin PBXFileReference section */
 		2C4126C0246E81A5003506EB /* RouteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCell.swift; sourceTree = "<group>"; };
+		2C42E60324823DB200E3CE37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		2C42E60524823E0300E3CE37 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		2C42E60724823E1600E3CE37 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		2C4D75B8246E6DE300409472 /* BussRoutesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BussRoutesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4D75BB246E6DE300409472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C4D75BD246E6DE300409472 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C4D75BF246E6DE300409472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C4D75BF246E6DE300409472 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		2C4D75C2246E6DE300409472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C4D75C5246E6DE300409472 /* task2_2Lab9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = task2_2Lab9.xcdatamodel; sourceTree = "<group>"; };
 		2C4D75C7246E6DE400409472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,14 +56,11 @@
 		2C4D75D2246E6EAA00409472 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		2C4D75D3246E6EAA00409472 /* Route+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Route+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2C4F11AE246EB7EA006DB3D9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		2C4F11B8246ED8C1006DB3D9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		2C4F11B9246ED8C1006DB3D9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		2C4F11BA246ED8CC006DB3D9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		2C4F11BB246ED8CC006DB3D9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		2C4F11BD246ED8DD006DB3D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2C4F11BF246ED8E3006DB3D9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2C4F11C0246ED8E4006DB3D9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		2C4F11C2246EDB28006DB3D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		2C54F06224819FAE0035F2A0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2C848D7D2481B77A005225D6 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		2C848D7E2481B77A005225D6 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 				2C4D75BB246E6DE300409472 /* AppDelegate.swift */,
 				2C4D75BD246E6DE300409472 /* SceneDelegate.swift */,
 				2C54F06224819FAE0035F2A0 /* MainViewController.swift */,
-				2C4D75BF246E6DE300409472 /* ViewController.swift */,
+				2C4D75BF246E6DE300409472 /* MapViewController.swift */,
 				2C4F11AE246EB7EA006DB3D9 /* LocationManager.swift */,
 				2CAAB0B824802E41004FFE59 /* WeatherGetter.swift */,
 			);
@@ -272,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4D75C0246E6DE300409472 /* ViewController.swift in Sources */,
+				2C4D75C0246E6DE300409472 /* MapViewController.swift in Sources */,
 				2C54F06324819FAE0035F2A0 /* MainViewController.swift in Sources */,
 				2C848D7F2481B77A005225D6 /* User+CoreDataClass.swift in Sources */,
 				2C4D75D5246E6EAA00409472 /* Route+CoreDataProperties.swift in Sources */,
@@ -313,9 +313,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				2C4D75C2246E6DE300409472 /* Base */,
-				2C4F11B8246ED8C1006DB3D9 /* ru */,
-				2C4F11BA246ED8CC006DB3D9 /* ja */,
-				2C4F11C2246EDB28006DB3D9 /* en */,
+				2C42E60324823DB200E3CE37 /* en */,
+				2C42E60524823E0300E3CE37 /* ja */,
+				2C42E60724823E1600E3CE37 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
