@@ -79,7 +79,7 @@ class TestUI: XCTestCase {
         
         
         
-        XCTAssertTrue(app.textFields["Login Auth"] == nil, "Screen should be changed")
+        XCTAssertTrue(app.textFields["Login Auth"].exists, "Screen should be changed")
     }
 
 }
