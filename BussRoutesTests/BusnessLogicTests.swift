@@ -8,7 +8,7 @@
 
 import XCTest
 import CoreData
-@testable import task2_2Lab9
+@testable import BussRoutesApp
 
 class task2_2Lab9Tests: XCTestCase {
 
