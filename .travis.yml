@@ -1,4 +1,6 @@
 language: objective-c  
 osx_image: xcode11.5 
 script:
- - set -o pipefail && xcodebuild build test -project task2.2Lab9.xcodeproj -scheme task2.2Lab9 -sdk iphonesimulator13.5 -destination platform\=iOS\ Simulator,name\=iPhone\ 11,OS\=13.5 | xcpretty
+ - xcodebuild build-for-testing  -project task2.2Lab9.xcodeproj -scheme task2.2Lab9 -sdk iphonesimulator13.5 -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5' -derivedDataPath build | xcpretty
+ - xcodebuild test-without-building  -xctestrun "build/Build/Products/task2.2Lab9_iphonesimulator13.5-x86_64.xctestrun" -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5'
+ - xcodebuild build -project task2.2Lab9.xcodeproj -scheme task2.2Lab9 -sdk iphonesimulator13.5 -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.5' -derivedDataPath build
